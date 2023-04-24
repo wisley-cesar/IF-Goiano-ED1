@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40b3368a-a6d1-4119-9f86-14cada50ad88" name="Changes" comment="" />
+    <list default="true" id="cb5092d3-2686-4008-92d0-aa87efb8c014" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +10,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OtFhsGGdVfuvTFZQq0Lm6YLYXP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2OtPYeHIhptx3OxFlJytMr1lHQk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,18 +20,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="40b3368a-a6d1-4119-9f86-14cada50ad88" name="Changes" comment="" />
-      <created>1682372096042</created>
+      <changelist id="cb5092d3-2686-4008-92d0-aa87efb8c014" name="Changes" comment="" />
+      <created>1682376955211</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682372096042</updated>
-      <workItem from="1682372096895" duration="90000" />
+      <updated>1682376955211</updated>
+      <workItem from="1682376956276" duration="366000" />
     </task>
     <servers />
   </component>

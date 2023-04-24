@@ -1,21 +1,25 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        int n = 20; // número de pessoas na roda
-        int m = 3; // número de pessoas a serem eliminadas em cada rodada
-        List<Integer> people = new ArrayList<>();
-        for (int i = 1; i <= n; i++) {
-            people.add(i);
-        }
-        int index = 0;
-        while (people.size() > 1) {
-            index = (index + m - 1) % people.size();
-            System.out.println("Eliminando pessoa de número " + people.get(index));
-            people.remove(index);
-        }
-        System.out.println("A pessoa sobrevivente é a de número " + people.get(0));
-    }
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Informe o valor de m: ");
+        int m = scanner.nextInt();
 
+        Stack<Integer> stack = new Stack<Integer>();
+        for (int i = 20; i >= 1; i--) {
+            stack.push(i);
+        }
+
+        int count = 1;
+        while (stack.size() > 1) {
+            int num = stack.pop();
+            if (count % m != 0) {
+                stack.insertElementAt(num, 0);
+            }
+            count++;
+        }
+
+        System.out.println("A pessoa sobrevivente é a número " + stack.pop());
+    }
 }
